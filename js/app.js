@@ -28,7 +28,7 @@ window.onscroll = () => {
     // تحديث الروابط النشطة بناءً على موقع التمرير
     sections.forEach((sec) => {
         let top = window.scrollY;
-        let offset = sec.offsetTop - 150; // تعديل القيمة لتحديد بداية القسم
+        let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
         let id = sec.getAttribute("id");
 
